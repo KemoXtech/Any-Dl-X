@@ -1,6 +1,0 @@
-icon: https://apps.okteto.com/movies/icon.png
-deploy:
-  - okteto build -t okteto.dev/database:${OKTETO_GIT_COMMIT} database
-  - okteto build -t okteto.dev/helper_funcs:${OKTETO_GIT_COMMIT} helper
-  - okteto build -t okteto.dev/plugins:${OKTETO_GIT_COMMIT} plugins
-  - helm upgrade --install dl-x chart --set tag=${OKTETO_GIT_COMMIT}
