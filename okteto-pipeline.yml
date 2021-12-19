@@ -1,8 +1,6 @@
 icon: https://apps.okteto.com/movies/icon.png
 deploy:
-  - okteto build -t okteto.dev/api:${OKTETO_GIT_COMMIT} api
-  - okteto build -t okteto.dev/frontend:${OKTETO_GIT_COMMIT} frontend
-  - helm upgrade --install movies chart --set tag=${OKTETO_GIT_COMMIT}
-devs:
-  - api/okteto.yml
-  - frontend/okteto.yml
+  - okteto build -t okteto.dev/database:${OKTETO_GIT_COMMIT} database
+  - okteto build -t okteto.dev/helper_funcs:${OKTETO_GIT_COMMIT} helper
+  - okteto build -t okteto.dev/plugins:${OKTETO_GIT_COMMIT} plugins
+  - helm upgrade --install dl-x chart --set tag=${OKTETO_GIT_COMMIT}
