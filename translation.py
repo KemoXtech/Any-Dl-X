@@ -41,22 +41,22 @@ class Translation(object):
 <b>Take Screen Shots</b>
 ➠ <b>Send /sshot to take Screenshots .</b>
 
-<b>Made With 💕 By</b><b> @Tellybots_4u</b>
+<b>Made With 💕 By</b><b> @peacexme</b>
 """
     ABOUT_TEXT = """
  **🤖 <b>Bot :** All in One Bot</b>\n
- **👲 <b>Developer :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
- **👥 <b>Channel :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
+ **👲 <b>Developer :** [Kero](https://telegram.me/peacexme)</b>\n
+ **👥 <b>Channel :** [Kero](https://telegram.me/peacexme)</b>\n
  **❄️ <b>Credits :** Everyone in this journey</b>\n
- **🍴 <b>Source :** [Click here](https://t.me/tellybots_digital)</b>\n
+ **🍴 <b>Source :** [Click here](https://t.me/peacexme)</b>\n
  **📝 <b>Language :** [Python3](https://python.org)</b>\n
  **📚 <b>Library :** [Pyrogram v1.2.0](https://pyrogram.org)</b>\n
  **🌟 <b>Server :** [Heroku](https://heroku.com)</b>\n
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🤖 Update Channel', url='https://telegram.me/tellybots_4u'),
-        InlineKeyboardButton('💬 Support Group', url='https://telegram.me/tellybots_support')
+        InlineKeyboardButton('🤖 Update Channel', url='https://telegram.me/peacexme'),
+        InlineKeyboardButton('💬 Support Group', url='https://telegram.me/peacexme')
         ],[
         InlineKeyboardButton('❔ Help', callback_data='help'),
         InlineKeyboardButton('Close', callback_data='close')
