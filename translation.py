@@ -11,7 +11,7 @@ class Translation(object):
 
 <b>Use Help Button to Know How to Use me</b>
 
-<b>Made With 💕 By</b><b> @Tellybots_4u</b>
+<b>Made With 💕 By</b><b> kero/b>
 """
     HELP_TEXT = """
 <b>Link to Media or File</b>
@@ -41,7 +41,7 @@ class Translation(object):
 <b>Take Screen Shots</b>
 ➠ <b>Send /sshot to take Screenshots .</b>
 
-<b>Made With 💕 By</b><b> @peacexme</b>
+<b>Made With 💕 By</b><b> kero</b>
 """
     ABOUT_TEXT = """
  **🤖 <b>Bot :** All in One Bot</b>\n
@@ -93,7 +93,7 @@ URL | filename | username | password"""
     UPLOAD_START = " 📤UploadinG📤 "
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "By @Tellybots_4u"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "By kero"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\n\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
